@@ -1,0 +1,42 @@
+{
+  "name": "liturgyreader",
+  "version": "0.0.1",
+  "description": "A simple PWA app for reading liturgy on smartphone",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quatoo/LiturgyReader.git"
+  },
+  "keywords": [
+    "Liturgy",
+    "PWA",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Filipe Borges Pereira",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/quatoo/LiturgyReader/issues"
+  },
+  "homepage": "https://github.com/quatoo/LiturgyReader#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.4",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  }
+}
